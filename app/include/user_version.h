@@ -11,7 +11,7 @@
 #define NODE_VERSION_STR(x)	#x
 #define NODE_VERSION_XSTR(x)	NODE_VERSION_STR(x)
 
-#define NODE_VERSION		"NodeMCU " ESP_SDK_VERSION_STRING "." NODE_VERSION_XSTR(NODE_VERSION_INTERNAL) " built with Docker provided by frightanic.com\n\tbranch: master\n\tcommit: 67027c0d05f7e8d1b97104e05a3715f6ebc8d07f\n\tSSL: false\n\tmodules: adc,bit,dht,file,gpio,i2c,mqtt,net,node,ow,spi,tls,tmr,uart,wifi\n"
+#define NODE_VERSION		"NodeMCU " ESP_SDK_VERSION_STRING "." NODE_VERSION_XSTR(NODE_VERSION_INTERNAL) " built with Docker provided by frightanic.com\n\tbranch: master\n\tcommit: 67027c0d05f7e8d1b97104e05a3715f6ebc8d07f\n\tSSL: false\n\tmodules: adc,bit,dht,file,gpio,i2c,mqtt,net,node,ow,spi,tls,tmr,uart,wifi\n" " built with Docker provided by frightanic.com\n\tbranch: master\n\tcommit: 4efd59b9ee6d2a8f21cfe51ecd626e2cacb85016\n\tSSL: false\n\tmodules: adc,bit,dht,file,gpio,i2c,mqtt,net,node,ow,spi,tls,tmr,uart,wifi\n"
 
 #ifndef BUILD_DATE
 #define BUILD_DATE		"created on 2018-05-02 17:11\n"
